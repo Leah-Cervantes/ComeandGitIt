@@ -6,6 +6,8 @@ using namespace std;
 int main()
 
 {
+    cout << "CALCULATOR BY LEA" << endl
+        << "------------------" << endl;
 
     int firstNumber, secondNumber, sumOfTwoNumbers, diffOfTwoNumbers, prodOfTwoNumbers, quotOfTwoNumbers, modOfTwoNumbers ;
     // int powOfFirstNumber;
@@ -45,3 +47,45 @@ int main()
     return 0;
 
 }
+
+ //New extreme very amazing feature
+
+    int n, s, i, j;
+
+    cout << "\n\nEnter number of rows: ";
+
+    cin >> n;
+
+    for(i = 1; i <= n; i++)
+
+    {
+
+    //for loop for displaying space
+
+    for(s = i; s < n; s++)
+
+    {
+
+    cout << " ";
+
+    }
+
+    //for loop to display star equal to row number
+
+    for(j = 1; j <= (2 * i - 1); j++)
+
+    {
+
+    cout << "*";
+
+    }
+
+    // ending line after each row
+
+    cout << "\n";
+
+    }
+
+    
+
+    cout << "Source: This is from Stackoverflow.";
